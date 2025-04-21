@@ -1,23 +1,23 @@
-# 🍽️ Multi-Restaurant Food Delivery Website
+# 🍽️ QuickBites - Multi-Restaurant Food Delivery Platform
 
-A full-stack food delivery platform where users can browse multiple restaurants, explore menus, add items to their cart, place orders, and track delivery in real-time — all through a smooth and modern web experience.
+QuickBites is a full-featured, modern web application that enables users to browse multiple restaurants, explore diverse menus, place food orders, and track deliveries in real-time. The platform includes specialized dashboards for customers, restaurant partners, and administrators.
 
 ---
 
 ## 🚀 Features
 
-- 🏪 **Multi-Restaurant Support** — Browse and order from various restaurants.
-- 🍕 **User Registration & Secure Login**
-- 📖 **Restaurant & Food Menu Browsing**
-- 🛒 **Cart System with Quantity Control**
-- 💳 **Order Placement & Payment Workflow**
-- 📦 **Order History & Live Status Tracking**
-- 💬 **Feedback System** — Available only for delivered orders.
-- 🧑‍💻 **Role-based Dashboards**
-  - Customer Frontend
+- 🏪 **Multi-Restaurant Support** — Order from various restaurants in one app.
+- 👤 **User Registration & Secure Login** — JWT-authenticated user system.
+- 📖 **Restaurant & Menu Browsing** — Discover dishes and filter options easily.
+- 🛒 **Smart Cart System** — Add, remove, and manage quantities smoothly.
+- 💳 **Order & Payment Workflow** — Place orders and make secure payments.
+- 📦 **Order History & Live Tracking** — Follow real-time delivery updates.
+- 💬 **Feedback System** — Leave reviews only after delivery is complete.
+- 🧑‍💻 **Role-based Dashboards**:
+  - Customer App
   - Restaurant Partner Panel
-  - Admin Panel for managing restaurants, orders, and users.
-- 💡 **Fully Responsive Design** for mobile and desktop.
+  - Admin Panel for complete platform control.
+- 💡 **Fully Responsive Design** — Optimized for all screen sizes.
 
 ---
 
@@ -25,8 +25,8 @@ A full-stack food delivery platform where users can browse multiple restaurants,
 
 - **Frontend**: React.js, Tailwind CSS, Axios, React Router
 - **Backend**: Node.js, Express.js
-- **Database**: MongoDB (Mongoose ODM)
-- **Authentication**: JWT (JSON Web Token)
+- **Database**: MongoDB (Mongoose)
+- **Authentication**: JSON Web Token (JWT)
 
 ---
 
@@ -35,7 +35,7 @@ A full-stack food delivery platform where users can browse multiple restaurants,
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/avipatel2004/QuickBites-Food-Delivery-Website
+git clone https://github.com/Keval-Patel01/QuickBites-Food-Delivery-Website
 ```
 
 2. **Install dependencies for each part**
@@ -81,4 +81,4 @@ npm run dev
 ├── Backend/                  # Node.js API Server (Authentication, Orders, Payments, Feedback)
 ```
 
-Happy Coding! 🚀
+Enjoy your meal with QuickBites! 🍔🚀
