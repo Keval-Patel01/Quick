@@ -1,84 +1,113 @@
-# 🍽️ QuickBites - Multi-Restaurant Food Delivery Platform
+# 🍔 QuickBites - Full Stack Project
 
-QuickBites is a full-featured, modern web application that enables users to browse multiple restaurants, explore diverse menus, place food orders, and track deliveries in real-time. The platform includes specialized dashboards for customers, restaurant partners, and administrators.
+A robust food ordering platform connecting customers, restaurants, and administrators. Customers can browse menus, place orders, and make secure payments. Restaurants manage menus and orders, while admins monitor system-wide activities.
 
 ---
 
 ## 🚀 Features
 
-- 🏪 **Multi-Restaurant Support** — Order from various restaurants in one app.
-- 👤 **User Registration & Secure Login** — JWT-authenticated user system.
-- 📖 **Restaurant & Menu Browsing** — Discover dishes and filter options easily.
-- 🛒 **Smart Cart System** — Add, remove, and manage quantities smoothly.
-- 💳 **Order & Payment Workflow** — Place orders and make secure payments.
-- 📦 **Order History & Live Tracking** — Follow real-time delivery updates.
-- 💬 **Feedback System** — Leave reviews only after delivery is complete.
-- 🧑‍💻 **Role-based Dashboards**:
-  - Customer App
-  - Restaurant Partner Panel
-  - Admin Panel for complete platform control.
-- 💡 **Fully Responsive Design** — Optimized for all screen sizes.
+### 🍽 Client (Frontend)
+- 🧍‍♂ *User Registration & Login*
+- 🍔 *Menu Browsing & Food Selection*
+- 🛒 *Cart System & Order Placement*
+- 💳 *Secure Payment Integration*
+- 📜 *Order History & Tracking*
+- 🌐 *Responsive UI* using Tailwind CSS
+
+### 🏪 Restaurant Panel
+- 🧾 *Menu Management* — Add, edit, remove food items
+- 🧑‍🍳 *Order Management Dashboard*
+- 📊 *Sales Analytics with Recharts*
+- 🔔 *Real-time Notifications*
+- 📥 *Export Orders to Excel (XLSX)*
+
+### 🧑‍💼 Admin Panel
+- 👥 *User & Restaurant Management*
+- 📦 *System-wide Order Monitoring*
+- 📊 *Admin Dashboard with Charts*
+- 🔒 *Secure Login with JWT*
+
+### 🧠 Backend API
+- RESTful API with Express.js
+- MongoDB + Mongoose for data handling
+- Authentication & Authorization using JWT
+- Email Support via SendGrid & Nodemailer
+- Cloudinary for image storage
+- Stripe integration for payments
 
 ---
 
-## ⚙️ Tech Stack
+## ⚙ Tech Stack
 
-- **Frontend**: React.js, Tailwind CSS, Axios, React Router
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (Mongoose)
-- **Authentication**: JSON Web Token (JWT)
+- *Frontend*: React.js, Vite, Tailwind CSS, React Router DOM, Axios
+- *Backend*: Node.js, Express.js
+- *Database*: MongoDB (via Mongoose)
+- *Authentication*: JWT, Cookies
+- *Payment*: Stripe
+- *Others*: Cloudinary, Nodemailer, XLSX, Lucide React, Toastify, Recharts
 
 ---
 
 ## 💻 Installation
 
-1. **Clone the repository**
+1. *Clone the repository*
 
-```bash
-git clone https://github.com/Keval-Patel01/QuickBites-Food-Delivery-Website
-```
+bash
+git clone https://github.com/yourusername/QuickBites
 
-2. **Install dependencies for each part**
 
-```bash
-cd Backend
+2. *Install dependencies*
+
+bash
+# Backend Setup
+cd backend
 npm install
 
-cd ../Client_Frontend
+# Client Frontend Setup
+cd ../frontend
 npm install
 
-cd ../Admin_Frontend
+# Admin Panel Setup
+cd ../admin-frontend
 npm install
 
-cd ../Restaurant_Frontend
+# Restaurant Panel Setup
+cd ../restaurant-frontend
 npm install
-```
 
-3. **Run all development servers**
 
-```bash
-cd Backend
+3. *Run development servers*
+
+bash
+# Start Backend
+cd backend
 npm run dev
 
-cd ../Client_Frontend
+# Start Client Frontend
+cd ../frontend
 npm run dev
 
-cd ../Admin_Frontend
+# Start Admin Frontend
+cd ../admin-frontend
 npm run dev
 
-cd ../Restaurant_Frontend
+# Start Restaurant Frontend
+cd ../restaurant-frontend
 npm run dev
-```
+
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-```
-├── Admin_Frontend/           # Admin Dashboard for platform management
-├── Client_Frontend/          # Customer Application (Multiple Restaurant Browser)
-├── Restaurant_Frontend/      # Restaurant Partner Panel (Order & Menu management)
-├── Backend/                  # Node.js API Server (Authentication, Orders, Payments, Feedback)
-```
+
+QuickBites/
+├── backend/               # Node.js + Express.js API
+├── frontend/              # Customer-facing React App
+├── admin-frontend/        # Admin Dashboard Panel
+├── restaurant-frontend/   # Restaurant Dashboard Panel
+
+
+---
 
 Enjoy your meal with QuickBites! 🍔🚀
